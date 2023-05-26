@@ -1,0 +1,254 @@
+html, body{
+    font-family: sans-serif;
+    font-size: 95%;
+}
+body{
+    background-color: #f8f9fa;
+}
+.wrapper {
+    border: 10px solid white;
+    background-color: white;
+    margin: auto;
+    min-width: 960px;
+    max-width: 1580px;
+    /* padding: 0 325px; */
+}
+.content {
+    /* background-color: black; */
+    margin: auto;
+    min-width: 580px;
+    max-width: 960px;
+}
+a:link, a:visited{
+    text-decoration: none;
+}
+a:hover, a:active{
+  text-decoration: underline;
+}
+.redirect{
+    padding-left: 2.5%;
+}
+.main_body{
+    line-height: 1.6;
+}
+h1, h2{
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+    line-height: 1.375;
+    border-bottom: 1px solid #a2a9b1;
+    font-weight: normal;
+}
+h1{
+    display: inline;
+    border-bottom: none;
+}
+nav{
+    border-top: 1px solid #a2a9b1;
+    border-bottom: 1px solid #a2a9b1;
+    padding: 8px 0;
+    display: flex;
+}
+nav .top-nav{
+    margin-right: 2%;
+    display: inline;
+}
+nav input{
+    display: none;
+}
+.right-nav{
+  margin-left: auto;
+  order: 2;
+  margin-right: 2%;
+}
+.right-nav div{
+    margin-right: 0;
+    /* padding-left: 2%; */
+}
+
+input:checked + label{
+    padding-bottom: 8px;
+    border-bottom: 1px solid black;
+    color: black;
+}
+input + label{
+    color: blue;
+}
+input:hover + label{
+    padding-bottom: 1%;
+    border-bottom: 1px solid black;
+}
+ul{
+    margin: 0;
+    padding-left: 3%;
+    padding-top: -100%;
+}
+.side_wrapper{
+    padding-left: 1.5%;
+    float: right;
+    background-color: white;
+}
+.side_table{
+    vertical-align: top;
+    float: right;
+    max-width: 269px;
+    border: 1px solid #a2a9b1;
+    text-align: center;
+    font-size: 85%;
+    background-color: #f8f9fa;
+}
+.side_table > table{
+    padding: 2px 2px 2px 2px;
+    display: inline-block;
+}
+.side_table .table_header{
+    font-size: 118% !important;
+    background-color: #d3d3a4;
+}
+.middle_text{
+    text-align: left;
+}
+.middle_text ul{
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+.middle_text td td{
+    padding-left: 5%;
+    list-style: none;
+}
+.middle_text td th{
+    font-size: 105%;
+    vertical-align: top;
+    width: 35%;
+    list-style: none;
+}
+.pic_box{
+    min-width: 25px;
+    min-height: 25px;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    font-size: 85%;
+}
+.side_wrapper div:has(> .pic_box){
+    float: right;
+    padding-top: 5%;
+}
+.side_wrapper .pic_box{
+    padding: 3px;    
+}
+.main_body .pic_box{
+    padding: 20px;    
+}
+.pic_table td{
+    width: 150px;
+}
+#table-wapper{
+    border: 1px solid #a2a9b1;
+}
+/* table, td, th{
+    border: 1px solid black;
+} */
+#bottom-table{
+    margin: 0;
+    border: 3px solid #fdfdfd;
+    background-color: #fdfdfd;
+    text-align: left;
+    font-size: 90% !important;
+}
+#bottom-table .table_header{
+    padding: 0;
+    background-color: #ccccff;
+    text-align: center;
+}
+#bottom-table .sub-header{
+    text-align: right;
+    border: 1px solid white;
+    margin: 0;
+    padding-right: 1%;
+    width: 9%;
+    min-width: 50px;
+    background-color: #e6e6ff;
+}
+#bottom-table .table_footer{
+    padding: 0;
+    text-align: center;
+    border: 1px solid white;
+    background-color: #ddddff;
+}
+#bottom-table th{
+    text-align: right;
+    border: 1px solid white;
+    margin: 0;
+    padding-right: 1%;
+    width: 13%;
+    min-width: 100px;
+    background-color: #ddddff;
+}
+#bottom-table tr:nth-child(odd) td{
+    background-color: #f7f7f7;
+}
+#bottom-table tr:nth-child(odd) td{
+    background-color: #f7f7f7;
+}
+#bottom-table ul{
+    margin: 0 0 0 0 0;
+    padding-left: 1%;
+    
+    float: left;
+}
+#bottom-table li{
+    list-style: circle;
+    display: inline-block;
+    list-style: none;
+}
+
+#bottom-table li:after {
+    content: '\00a0\25AA';
+    font-size: 80%;
+    color:black;
+}
+#bottom-table li:last-child:after {
+    content: '';
+}
+.edit{
+    font-size: 60%;
+}
+.edit:before{
+    content: '\00a0\00a0\00a0[\00a0';
+    color:black;
+}
+.edit:after{
+    content: '\00a0]';
+    color:black;
+}
+.foot-table{
+    background-color: #f8f9fa;
+    padding: 1px;
+    width: 958px;
+    border: 1px solid #a2a9b1;
+}
+footer{
+    padding: 2% 3%;
+    padding-bottom: 6%;
+    font-size: 90%;
+}
+footer div{
+    border-top: 1px solid #a2a9b1;
+}
+footer li{
+    margin: 0;
+    padding: 0;
+    list-style: circle;
+    display: inline-block;
+    list-style: none;
+}
+
+footer ul{
+    padding: 0;
+}
+footer li{
+    margin: 0;
+    padding: 0;
+    list-style: circle;
+    display: inline-block;
+    list-style: none;
+}
